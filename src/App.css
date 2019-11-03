@@ -24,3 +24,40 @@
 body {
   background: linear-gradient(to bottom, #d3d3d3 1%, #708090 96%);
 }
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color:#708090;
+}
+
+h3{
+  font-family: 'Bungee Hairline', cursive;
+  color: white;
+}
+
+.title{
+  padding: 3%;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #d3d3d3;
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 5s;
+  animation-name: change;
+  animation-duration: 5s;
+  margin-left: 35%;
+  margin-top: 15%;
+  /* margin-right: 50%; */
+}
+
+@-webkit-keyframes change{
+  from {border-color: #d3d3d3;}
+  to {border-color: #708090;}
+}
+
+@keyframes change{
+  from {border-color: #d3d3d3;}
+  to {border-color: #708090;}
+}
