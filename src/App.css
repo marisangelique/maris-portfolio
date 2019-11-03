@@ -20,3 +20,7 @@
 .App-link {
   color: #09d3ac;
 }
+
+body {
+  background: linear-gradient(to bottom, #d3d3d3 1%, #708090 96%);
+}
