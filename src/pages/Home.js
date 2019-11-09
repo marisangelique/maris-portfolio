@@ -27,16 +27,20 @@ function Home(){
     return(
 
             <div>
-                
-                <div className="title">
-                    <h1>Maris-Angelique</h1>
-                    <h3>Full Stack Web Developer</h3>
-                </div>
+
+                <Link to='select'>
+                    <div className="title">
+                        <h1>Maris-Angelique</h1>
+                        <h3>Full Stack Web Developer</h3>
+                    </div>
+                </Link>
 
                 <Particles
                     params = {particleOpt}
                 />
+
             </div>
+       
     );
 }
 

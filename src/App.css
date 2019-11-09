@@ -53,11 +53,11 @@ h3{
 }
 
 @-webkit-keyframes change{
-  from {border-color: #d3d3d3;}
-  to {border-color: #708090;}
+  from {border-color: #708090;}
+  to {border-color: #d3d3d3;}
 }
 
 @keyframes change{
-  from {border-color: #d3d3d3;}
-  to {border-color: #708090;}
+  from {border-color: #708090;}
+  to {border-color: #d3d3d3;}
 }

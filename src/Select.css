@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to bottom, #d3d3d3 1%, #708090 96%);
+}
+
+.container{
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+    left: 170px;
+}
+
+.selectAbout, .selectContact, .selectPortfolio, .selectMusic, .selectArt{
+    border-style: solid;
+    border-color: #d3d3d3;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 5s;
+    animation-name: change;
+    animation-duration: 5s;
+    height: 600px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+@-webkit-keyframes change{
+    from {border-color: #708090;}
+    to {border-color: #d3d3d3;}
+  }
+  
+  @keyframes change{
+    from {border-color: #708090;}
+    to {border-color: #d3d3d3;}
+  }
+
+.selectAbout{
+    margin-left: -20px;
+}
+
+.selectContact{
+    margin-left: -10px;
+}
+
+.selectPortfolio{
+    margin-left: 0px;
+}
+
+.selectMusic{
+    margin-left: 10px;
+
+}
+
+.selectArt{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
