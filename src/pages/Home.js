@@ -30,7 +30,7 @@ function Home(){
 
                 <Link to='select'>
                     <div className="title">
-                        <h1>Maris-Angelique</h1>
+                        <h2>Maris-Angelique</h2>
                         <h3>Full Stack Web Developer</h3>
                     </div>
                 </Link>

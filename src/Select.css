@@ -2,11 +2,16 @@ body {
     background: linear-gradient(to bottom, #d3d3d3 1%, #708090 96%);
 }
 
+h1{
+    font-family: 'Bungee Hairline', cursive;
+    color: #708090;
+}
+
 .container{
     position: absolute;
     margin-top: 5%;
     text-align: center;
-    left: 170px;
+    left: 150px;
 }
 
 .selectAbout, .selectContact, .selectPortfolio, .selectMusic, .selectArt{
@@ -18,7 +23,7 @@ body {
     animation-duration: 5s;
     height: 600px;
     margin-left: 30px;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 @-webkit-keyframes change{
@@ -50,6 +55,44 @@ body {
 
 .selectArt{
     margin-left: 20px;
-    margin-right: 70px;
+    margin-right: 30px;
 }
+
+.about{
+    width: 600px;
+    margin-left: 250px;
+    padding: 40px;
+    color: #d3d3d3;
+}
+
+.aboutTitle{
+    font-family: 'Bungee Hairline', cursive;
+    color: #d3d3d3;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.navAbout{
+    margin-left: -10px;
+    padding: 20px;
+    font-family: 'Bungee Hairline', cursive;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.resume{
+    margin-right: 20px;
+}
+
+.aboutContainer{
+    background: #708090;
+    border-radius: 300px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 5s;
+    animation-name: change;
+    animation-duration: 5s;
+}
+
 
